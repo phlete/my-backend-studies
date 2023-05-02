@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício numbers/math</title>
+</head>
+<body>
+    <script>
+    const num1 = prompt('digite um numero:')
+    document.body.innerHTML += `raiz quadrada: <strong>${num1 ** 0.5}</strong> <br />`;
+    document.body.innerHTML += `${num1} e inteiro: <strong>${Number.isInteger(num1)}</strong> <br />`;
+    document.body.innerHTML += `E NaN: <strong>${Number.isNaN(num1)}</strong> <br />`; // ou .charAt
+    document.body.innerHTML += `Arredonda pra baixo: <strong>${Math.floor(num1)}</strong> <br />`;
+    document.body.innerHTML += `Arredonda pra cima: <strong>${Math.ceil(num1)}</strong> <br />`;
+    document.body.innerHTML += `Com duas casas decimais: <strong>${num1.toFixed(4)}</strong> <br />`;
+    </script>
+</body>
+</html>
