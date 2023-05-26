@@ -12,7 +12,7 @@ possibilita alterações com apenas a modificão dos parametros ou objetos dentr
 // nao podemos criar variaveis com palavras reservadas
 // variaveis precisam ter nomes significativos
 
-let nomeCliente = 'joao';
+let nomeCliente = 'joão';
     console.log(nomeCliente);
 
 // nao pode comecar o nome de uma variavel com um numero
@@ -23,7 +23,7 @@ let nomeCliente = 'joao';
 // em ambos os casos o codigo dara erro devido a sintaxe do nome das variaveis
 
 // para evitarmos esse tipo de erro utilizamos o camelCase
- 
+
 let nomeCompletoDoCliente = "paulo henrique de lima lopes figueiredo";
     console.log(nomeCompletoDoCliente);
 
