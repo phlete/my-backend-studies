@@ -13,7 +13,7 @@ let num4 = Math.ceil(num3);
 let num5 = 7.4165465432; // acima de 7.5 ele arredonda pra cima e 7.5 pra baixo ele arredonda para baixo
 let num6 = Math.round(num5);
     console.log(num6)
-// Math.round serve para arredondamento automatico.
+// Math.round serve para arredondamento automático.
 // valores acima x.50 ele arredonda pra cima e x.49 pra baixo ele arredonda para baixo
 
 console.log(Math.max(1,5,-50,65,500,1500,4,10))
