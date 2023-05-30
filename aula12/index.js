@@ -1,4 +1,4 @@
-// # Mais sobre strings
+// # aula sobre Mais sobre strings
 
 let umaString = "Um \"Texto\"";
     console.log(umaString);
@@ -10,6 +10,7 @@ let umaString = "Um \"Texto\"";
 //                01234567
 let umaString1 = "Um Texto";
     console.log(umaString1[4]);
+    console.log(umaString1[8]);
 // caso pegue um numero fora do range de letras da string, ele vai dar undefined (positivo ou negativo)
 
 //                01234567

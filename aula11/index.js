@@ -9,7 +9,7 @@ varB = varC // C
 varC = varA // B
 
 console.log(varA, varB, varC);
-/* esse jeito não daria certo pois o valor do A se perderia e não conseguiríamos achar o valor dele nunca
+/* esse jeito não daria certo pois o valor do A se perderia e não conseguiríamos achar o valor dele nunca.
 uma maneira de evitar isso seria criar uma variável fixa para proteger o valor do "varA"
 */
 
