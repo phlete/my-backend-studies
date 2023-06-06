@@ -1,6 +1,6 @@
 // # aula sobre funções
 
-// "nome" seria igual um parâmetro (argumento para a variavel nome seria por exemplo 'Luiz'
+// "nome" seria igual um parâmetro (argumento para a variável nome seria por exemplo 'Luiz'
 function saudacao(nome) {
     console.log(`Bom dia ${nome}!`)
 }
@@ -14,7 +14,7 @@ function saudacao1(nome) {
 }
 const variavel1 = saudacao1('Bernardo');
     console.log(variavel1);
-// a função nao vai mais exibir nada. Apenas a variavel vai receber um valor agora e nao dará mais undefined
+// a função nao vai mais exibir nada. Apenas a variável vai receber um valor agora e nao dará mais undefined
 
 function soma(x, y) {
     const resultado = x + y

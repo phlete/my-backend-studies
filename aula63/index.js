@@ -19,11 +19,11 @@ function Produto(nome, preco) {
     this.preco = preco;
 }
 
-Produto.prototype.desconto = function(percentual) {
+Produto.prototype.desconto = function (percentual) {
     this.preco = this.preco - (this.preco * (percentual / 100));
 };
 
-Produto.prototype.aumento = function(percentual) {
+Produto.prototype.aumento = function (percentual) {
     this.preco = this.preco + (this.preco * (percentual / 100));
 };
 
@@ -41,4 +41,12 @@ Object.setPrototypeOf(p2, Produto.prototype);
 p2.aumento(15);
 console.log(p2)
 
-const p3 = Object.create(Object.prototype)
+const p3 = Object.create(Produto.prototype, {
+    preco: {
+        writable: true,
+        configurable: true,
+        enumerable: true,
+        value: 113
+    }
+});
+console.log(p3);
