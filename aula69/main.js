@@ -1,4 +1,4 @@
-// aula sobre herença com classes
+// aula sobre herança com classes
 // sempre tomar cuidado em criar uma hierarquia muito grande
 // dificulta na correção de erros e torna frágil sua aplicação
 // VOCE HERDA TUDO DOS SEUS PAIS POREM ELES N HERDAM NADA DE VC
